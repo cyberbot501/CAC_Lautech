@@ -11,11 +11,11 @@ export default function Nav() {
   };
 
   return (
-    <div className='bg-[#343434] w-[100%] h-[100px] flex flex-row justify-between items-center px-10 md:px-20 fixed'>
+    <div className='bg-[#343434] w-[100%] h-[100px] flex flex-row justify-between items-center px-5 md:px-20 fixed z-50'>
       <div className='flex flex-row justify-center items-center gap-3'>
-        <img src={logo} alt="Church Logo" className='md:w-[100px] md:h-[80px] w-[80px] h-[60px]'/>
+        <img src={logo} alt="Church Logo" className='md:w-[100px] md:h-[80px] w-[60px] h-[50px]'/>
         <div className='flex flex-col justify-center'>
-          <h1 className='font-extrabold font-Inter md:text-[20px] text-[18px] text-[#F3F3F3]'>Christ Apostolic Church</h1>
+          <h1 className='font-extrabold font-Inter md:text-[20px] text-[16px] text-[#F3F3F3]'>Christ Apostolic Church</h1>
           <h3 className='font-bold font-Inter md:text-[16px] text-[14px] text-[#8E8B82]'>Chapel Lautech</h3>
         </div>
       </div>
