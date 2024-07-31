@@ -45,7 +45,7 @@ export default function Nav() {
           <NavLink to='' className='font-Inter font-medium text-[18px] text-[#F3F3F3] my-2'>Sermons</NavLink>
           <NavLink to='' className='font-Inter font-medium text-[18px] text-[#F3F3F3] my-2'>Blog</NavLink>
           <NavLink to='' className='font-Inter font-medium text-[18px] text-[#F3F3F3] my-2'>Give</NavLink>
-          <NavLink to='' className='font-Inter font-medium text-[18px] text-[#F3F3F3] my-2 bg-[#E9DCBE] w-[150px] h-[45px] rounded-[16px] flex justify-center items-center'>Contact us</NavLink>
+          <NavLink to='' className='font-Inter font-medium text-[18px] text-[#363133] my-2 bg-[#E9DCBE] w-[150px] h-[45px] rounded-[16px] flex justify-center items-center'>Contact us</NavLink>
         </ul>
       )}
     </div>
