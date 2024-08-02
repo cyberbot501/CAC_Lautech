@@ -7,9 +7,9 @@ export default function welcome() {
   return (
     <div className='w-[100%] flex md:flex-row gap-16 justify-center items-center py-20 bg-[#363133]'>
         <div className='flex flex-col gap-5'>
-          <div className='flex flex-row gap-5 justify-center md:gap-8 md:pl-12'>
-            <img src={img1} alt="" className='md:h-[350px]  md:w-[350px] w-[150px] h-[120px] md:rounded-[15px] '/>
-            <img src={img1} alt="" className='md:h-[350px]  md:w-[350px] w-[150px] h-[120px] md:rounded-[15px]'/>
+          <div className='flex flex-col items-center  md:flex-row gap-5 justify-center md:gap-8 md:pl-12'>
+            <img src={img1} alt="" className='md:h-[350px] hidden md:block  md:w-[350px] w-[330px] h-[200px] md:rounded-[15px] '/>
+            <img src={img1} alt="" className='md:h-[350px]  md:w-[350px] w-[330px] h-[200px] md:rounded-[15px]'/>
           </div>
 
           <div className='md:h-[700px] bg-[#f0e0bb] md:w-[790px] w-[330px] h-[900px] flex flex-col justify-center items-center md:items-start md:rounded-tr-[105px] md:rounded-tl-[10px] md:rounded-br-[10px] md:rounded-bl-[105px] md:px-8 md:gap-10 px-2 gap-5' >
