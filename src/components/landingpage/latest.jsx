@@ -32,33 +32,35 @@ export default function Latest() {
           }}
         className="mySwiper h-[500px] md:mt-40"
       >
-         <SwiperSlide className='flex flex-col'>
+         <SwiperSlide className='flex flex-col justify-center items-center md:items-start'>
             <img src="" alt="" className='w-[240px] md:w-[420px] h-[200px] '/>
-            <div>
+            <div className='flex flex-col'>
                 <p className='font-Inter font-medium text-[17px] text-[#F3F3F3]'>04/03/2023</p>
                 <h2 className='font-Inter font-medium text-[28px] text-[#F3F3F3]'>The Power Of Love</h2>
                 <p className='font-Inter font-medium text-[17px] text-[#F3F3F3]'>Pastor Obasa</p>
             </div>
         </SwiperSlide>
-        <SwiperSlide className='flex flex-col'>
-            <img src="" alt="" className='w-[420px] h-[200px] '/>
-            <div>
+        <SwiperSlide className='flex flex-col justify-center items-center md:items-start'>
+            <img src="" alt="" className='w-[240px] md:w-[420px] h-[200px] '/>
+            <div className='flex flex-col'>
                 <p className='font-Inter font-medium text-[17px] text-[#F3F3F3]'>04/03/2023</p>
                 <h2 className='font-Inter font-medium text-[28px] text-[#F3F3F3]'>The Power Of Love</h2>
                 <p className='font-Inter font-medium text-[17px] text-[#F3F3F3]'>Pastor Obasa</p>
             </div>
         </SwiperSlide>
-        <SwiperSlide className='flex flex-col'>
-            <img src="" alt="" className='w-[420px] h-[200px] '/>
-            <div>
+
+        <SwiperSlide className='flex flex-col justify-center items-center md:items-start'>
+            <img src="" alt="" className='w-[240px] md:w-[420px] h-[200px] '/>
+            <div className='flex flex-col'>
                 <p className='font-Inter font-medium text-[17px] text-[#F3F3F3]'>04/03/2023</p>
                 <h2 className='font-Inter font-medium text-[28px] text-[#F3F3F3]'>The Power Of Love</h2>
                 <p className='font-Inter font-medium text-[17px] text-[#F3F3F3]'>Pastor Obasa</p>
             </div>
         </SwiperSlide>
-        <SwiperSlide className='flex flex-col'>
-            <img src="" alt="" className='w-[420px] h-[200px] '/>
-            <div>
+
+        <SwiperSlide className='flex flex-col justify-center items-center md:items-start'>
+            <img src="" alt="" className='w-[240px] md:w-[420px] h-[200px] '/>
+            <div className='flex flex-col'>
                 <p className='font-Inter font-medium text-[17px] text-[#F3F3F3]'>04/03/2023</p>
                 <h2 className='font-Inter font-medium text-[28px] text-[#F3F3F3]'>The Power Of Love</h2>
                 <p className='font-Inter font-medium text-[17px] text-[#F3F3F3]'>Pastor Obasa</p>
