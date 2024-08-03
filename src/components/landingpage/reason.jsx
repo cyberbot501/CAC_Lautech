@@ -29,7 +29,7 @@ export default function reason() {
             <h1 className='text-[#F3F3F3] font-Cinzel font-semibold md:text-[40px] text-[25px] w-[300px] md:w-[700px] text-center'>EMBACK ON A JOURNEY OF FAITH AND SERVICE WITH US</h1>
        </div>
 
-       <div className='grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-10'>
+       <div className='grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-5'>
        {cardData.map((card, index) => (
 
             <div key={index} className='md:w-[380px] w-[330px] h-[400px] hero flex flex-col justify-center items-center gap-4'>

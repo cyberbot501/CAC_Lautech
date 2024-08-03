@@ -25,6 +25,7 @@ export default function welcome() {
         </div>
 
         <img src={img1} alt="" className='h-[900px] bg-yellow-800 w-[300px] rounded-tr-[150px] rounded-tl-[20px] rounded-b-[20px] hidden md:block'/>
+
     </div>
   )
 }

@@ -31,3 +31,43 @@
   grid-column: 3;
   grid-row: 1 / span 2;
 } */
+
+
+
+
+/* .swiper-container {
+  position: relative;
+  place-content: center;
+  width: 870px;
+  height: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  padding-top: 150px;
+  z-index: 10000;
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 300px;
+} */
+
+.swiper-button-prev,
+.swiper-button-next {
+  @apply absolute z-[10000] pt-[150px] w-[300px] place-content-center;
+}
+
+.swiper-button-prev {
+  @apply md:pl-[300px];
+}
+
+.swiper-button-next {
+  @apply md:pr-[300px] pr-[650px];
+}
+
+/* .swiper-button-next {
+  right: 300px;
+}
+
+.swiper-button-prev {
+  left: 300px; 
+} */
