@@ -19,7 +19,7 @@ export default function Latest() {
             <button className=' bg-transparent border-2 w-[150px] h-[45px] rounded-[16px] text-[#F3F3F3] font-Inter font-medium text-[18px] flex flex-row items-center justify-center gap-5'>See All <FaArrowRight /></button>
         </div>
          <div className="swiper-container relative flex justify-center items-center w-[870px] h-full">
-      <Swiper
+      {/* <Swiper
         navigation={true}
         modules={[Navigation]}
         spaceBetween={20}
@@ -67,7 +67,7 @@ export default function Latest() {
             </div>
         </SwiperSlide>
        
-      </Swiper>
+      </Swiper> */}
       {/* <div className="swiper-button-prev absolute z-[10000] pt-[150px] pl-[200px] pr-[200px] w-[300px]"></div>
         <div className="swiper-button-next absolute z-[10000] pt-[150px] pl-[200px] pr-[200px] w-[300px]"></div> */}
     </div>
